@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <title>Donate</title>
+</head>
+<body>
+<div class="__container">
+    <header class="header">
+        <div class="header__dark-overlay"></div>
+        <div class="header__container">
+            <h1 class="header__logo logo">
+                <a href="/main/" class="header__logo-description logo-description">PetStory online
+                    <img src="/assets/icons/bamboo.svg" alt="bamboo">
+                </a>
+            </h1>
+            <nav class="header__nav nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="/main/" class="nav-menu__link" >About</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Map</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Zoos</a></li>
+                    <li class="nav-menu__item"><a href="./" class="nav-menu__link nav-menu__link_active">Donate</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="header__copyright">
+                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+            </div>
+            <a class="burger-menu__icon" href="#"><span></span></a>
+        </div>
+    </header>
+    <section class="donate-top">
+        <div class="donate-top__container">
+            <div class="donate-top__img"></div>
+        </div>
+    </section>
+
+    <div class="feed-friend_donate">
+        <div class="feed-friend_donate__container">
+            <div class="pick-feed-friend__help help-friend">
+                <div class="help-friend__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</div>
+                <div class="help-friend__description"><span class="help-friend__description-bold">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months</span>. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity. &nbsp;<span class="help-friend__description-bold">But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</span></div>
+                <div class="help-friend__donation-info">Donation Information</div>
+            </div>
+            <div class="pick-feed-friend__pick donate-pick">
+                <div class="donate-pick__container">
+                    <div class="donate-pick__title ">Pick and feed a friend</div>
+                    <div class="donate-pick__subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</div>
+                    <div class="donate-pick-counter__container">
+                        <div class="donate-pick-counter__diet pick-diet">
+                            <div class="pick-diet__number">4</div>
+                            <div class="pick-diet__description">Panda diet for the day.</div>
+                        </div>
+                        <div class="pick-counter__img-panda">
+                            <img src="/assets/img/animals-widget.png" alt="panda">
+                        </div>
+                    </div>
+                    <div class="pick-feed__donate">
+                        <div class="pick-feed__amount">Amount</div>
+                        <div class="pick-feed__hr-scroll hr-scroll">
+                            <div class="hr-scroll__inner">
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot hr-scroll__dot_selected"></div>
+                                <div class="hr-scroll__dot"></div>
+                                <div class="hr-scroll__dot"></div>
+                            </div>
+                        </div>
+                        <div class="pick-feed__sum sum-pick">
+                            <div class="sum-pick__item sum-pick__item_4digit">5000</div>
+                            <div class="sum-pick__item sum-pick__item_4digit">2000</div>
+                            <div class="sum-pick__item sum-pick__item_4digit">1000</div>
+                            <div class="sum-pick__item sum-pick__item_3digit">500</div>
+                            <div class="sum-pick__item sum-pick__item_3digit">250</div>
+                            <div class="sum-pick__item sum-pick__item_3digit sum-pick__item_selected">100</div>
+                            <div class="sum-pick__item sum-pick__item_2digit">50</div>
+                            <div class="sum-pick__item sum-pick__item_2digit">25</div>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="pick-feed__another-amount">
+                            <span class="pick-feed__currency-sign">
+                                <input id="input_amount" type="number" placeholder="Another amount" min="0" max="9999" maxlength="4" step="1"
+                                       value="100"
+                                       onkeydown="return event.keyCode !== 69"
+                                       oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                />
+                                <span></span>
+                            </span>
+                        </div>
+                        <div class="pick-feed__radio-btn">
+                            <label class="radio-btn">
+                                <input type="radio" value="monthly" name="donate-frequency">
+                                <span></span>
+                                Monthly
+                            </label>
+                            <label class="radio-btn">
+                                <input type="radio" value="once" name="donate-frequency" checked>
+                                <span></span>
+                                Once
+                            </label>
+                        </div>
+                    </form>
+                    <div class="pick-feed-friend__btn orange-btn">
+                        <a href="#" class="orange-btn__text">feed a friend now</a>
+                    </div>
+                    <div class="pick-feed__share">Share with your friends on social networks</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top top-footer">
+                <div class="footer__logo logo">
+                    <a href="/main/" class="footer__logo-description logo-description">PetStory online
+                        <img src="/assets/icons/bamboo.svg" alt="bamboo">
+                    </a>
+                </div>
+                <div class="top-footer__subscribe subscribe">
+                    <div class="subscribe__title">Subscribe to our news</div>
+                    <form onclick="event.preventDefault()">
+                        <input class="subscribe__input" type="email" required placeholder="Enter your email">
+                        <button class="subscribe__submit" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_middle">
+                <div class="footer__btn orange-btn">
+                    <a href="./" class="orange-btn__text">donate for volunteers</a>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <ul class="footer__media media">
+                    <li class="media__item item-media">
+                        <div class="item-media__container">
+                            <a class="social social_facebook" href="https://www.facebook.com/">Facebook</a>
+                        </div>
+                    </li>
+                    <li class="media__item item-media">
+                        <div class="item-media__container">
+                            <a class="social social_twitter" href="https://twitter.com/">Twitter</a>
+                        </div>
+                    </li>
+                    <li class="media__item item-media">
+                        <div class="item-media__container">
+                            <a class="social social_instagram" href="https://www.instagram.com/">Instagram</a>
+                        </div>
+                    </li>
+                    <li class="media__item item-media">
+                        <div class="item-media__container">
+                            <a class="social social_youtube" href="https://www.youtube.com/">Youtube</a>
+                        </div>
+                    </li>
+                </ul>
+                <nav class="footer__nav nav-menu">
+                    <ul class="nav-menu__list">
+                        <li class="nav-menu__item"><a href="/main/" class="nav-menu__link">About</a></li>
+                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Map</a></li>
+                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Zoos</a></li>
+                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__copyright copyright-footer">
+                    <div class="copyright-footer__designer">Designed by Alisa Samborskaya</div>
+                    <div class="copyright-footer__school">©RSSchool & ©Yem Digital 2021</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/donate.js"></script>
+</body>
+</html>
